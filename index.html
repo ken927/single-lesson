@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>シングルページレイアウト</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <p class="site-title-sub">Web designer's portofolio</p>
+    <h1 class="site-title">MY NAME IS...</h1>
+    <p class="site-title-text">Check out my works</p>
+    <div class="buttons">
+      <a class="button" href="#about">LEARN MORE</a>
+      <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <h2 class="heading">ABOUT ME</h2>
+    <p class="about-description">
+      はじめまして。日本でWebデザイナーをしております。<br>
+      デザインの専門学校を卒業し、制作会社での業務経験を経て、
+      現在はフリーランスとして働いています。
+    </p>
+    <p class="about-description">
+      このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた
+      架空のWebデザイナーのポートフォリオサイトです。<br>
+      このサンプルのようなサイトを一から作る過程を通して、HTMLとCssの実践的なノウハウを学ぶことができます。
+    </p>
+  </section>
+  <section class="works">
+    <h2 class="heading">WORKS</h2>
+    <div class="works-wrapper">
+      <div class="work-box tree">
+        <img class="work-image" src="images/tree.jpg">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              ひとつめの制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール:XXX, XXX, XXX
+              <a class="button button-ghost" href="#">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box building">
+        <img class="work-image" src="images/building.jpg">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              ふたつめの制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール:XXX, XXX, XXX
+              <a class="button button-ghost" href="#">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box lake">
+        <img class="work-image" src="images/lake.jpg">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              みっつめの制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール:XXX, XXX, XXX
+              <a class="button button-ghost" href="#">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box sky">
+        <img class="work-image" src="images/sky.jpg">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              よっつめの制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール:XXX, XXX, XXX
+              <a class="button button-ghost" href="#">READ MORE</a>
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills">
+    <h2 class="heading">MY SKILLS</h2>
+    <div class="skills-wrapper">
+      <div class="skill-box">
+        <i class="skill-icon fa fa-lightbulb-o"></i>
+        <h3 class="skill-title">IDEA</h3>
+        <p class="skill-description">
+          何かを考えることが好きです。<br>
+          新しいことを思いついては試しています。<br>
+          ディレクションの経験もあります。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fa fa-paint-brush"></i>
+        <h3 class="skill-title">DESIGN</h3>
+        <p class="skill-description">
+          見た麺p綺麗さだけじゃなくて<br>
+          使いやすさ、情報の伝わりやすさなど、<br>
+          その先まで考えることを意識しています。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fa fa-code"></i>
+        <h3 class="skill-title">CODING</h3>
+        <p class="skill-description">
+          HTML/CSSコーディングも行います。<br>
+          正しく美しいマークアップと、<br>
+          今後の変更への強さを考慮しています。
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input name="name" type="text" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+  <footer class="footer">
+   ©️　sample site
+  </footer>
+  <script src="lib/placeholders.min.js"></script>
+</body>
+</html>
